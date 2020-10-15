@@ -24,6 +24,7 @@
 //JUST uncomment the option for your machine
 // #define V6_330_TITAN_TMC 1
 // #define V6_330_TITAN_NO_TMC 1
+#define V6_330_TITAN_NO_TMC 1
 // #define V6_330_NO_TITAN_TMC 1
 // #define V6_330_NO_TITAN_NO_TMC 1
 // #define V6_400_TITAN_TMC 1
@@ -837,7 +838,7 @@
  * heater. If your configuration is significantly different than this and you don't understand
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -924,7 +925,7 @@
 
 // Enable one of the options below for CoreXY, CoreXZ, or CoreYZ kinematics,
 // either in the usual order or reversed
-//#define COREXY
+#define COREXY
 //#define COREXZ
 //#define COREYZ
 //#define COREYX
@@ -1912,7 +1913,7 @@
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 180
+#define PREHEAT_1_TEMP_HOTEND 190
 #define PREHEAT_1_TEMP_BED     50
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
@@ -2095,7 +2096,7 @@
  *
  * :{ 'en':'English', 'an':'Aragonese', 'bg':'Bulgarian', 'ca':'Catalan', 'cz':'Czech', 'da':'Danish', 'de':'German', 'el':'Greek', 'el_gr':'Greek (Greece)', 'es':'Spanish', 'eu':'Basque-Euskera', 'fi':'Finnish', 'fr':'French', 'gl':'Galician', 'hr':'Croatian', 'hu':'Hungarian', 'it':'Italian', 'jp_kana':'Japanese', 'ko_KR':'Korean (South Korea)', 'nl':'Dutch', 'pl':'Polish', 'pt':'Portuguese', 'pt_br':'Portuguese (Brazilian)', 'ro':'Romanian', 'ru':'Russian', 'sk':'Slovak', 'tr':'Turkish', 'uk':'Ukrainian', 'vi':'Vietnamese', 'zh_CN':'Chinese (Simplified)', 'zh_TW':'Chinese (Traditional)', 'test':'TEST' }
  */
-#define LCD_LANGUAGE en
+#define LCD_LANGUAGE de
 
 /**
  * LCD Character Set
